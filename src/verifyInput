@@ -1,5 +1,5 @@
 function verifyInput(input){
-    let items = input.split(" ");
+    let items = [...new Set(input.split(" "))];
 
     if(items.length!=4){
         return "Wrong Input，Input again";
