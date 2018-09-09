@@ -1,0 +1,9 @@
+function verifyInput(input){
+    let items = input.split(" ");
+
+    if(items.length!=4){
+        return "Wrong Input，Input again";
+    }
+}
+
+module.exports = verifyInput;
