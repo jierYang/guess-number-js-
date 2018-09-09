@@ -1,0 +1,8 @@
+{
+  "name": "guess-number-js",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "scripts": { "test": "jasmine" }
+}
